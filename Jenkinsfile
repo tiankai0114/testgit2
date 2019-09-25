@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('checkout') {
       steps {
-        git 'https://github.com/tiankai01'
+        git 'git@github.com:tiankai0114/testgit2.git'
       }
     }
   }
